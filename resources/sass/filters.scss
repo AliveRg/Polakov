@@ -1,0 +1,146 @@
+.card__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1000;
+}
+
+.card:hover {
+    border: solid 2px #39741b;
+}
+
+.card {
+    width: 262px;
+    position: relative;
+    height: 414px;
+    background: #ffffff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.08);
+    border: solid 2px transparent;
+}
+
+.card__favorite {
+    position: absolute;
+    top: 21px;
+    right: 21px;
+}
+
+.card__content {
+    padding: 30px;
+}
+
+.card__goods-img {
+    max-width: 208px;
+    padding-bottom: 20px;
+}
+.card__goods-img img {
+    width: 100%;
+}
+
+.card__goods-info {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #dd2729;
+    padding-bottom: 15px;
+}
+.card__goods-info span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #2ba4a4;
+}
+
+.card__goods-name {
+    min-height: 50px;
+    height: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #404040;
+}
+
+.card__line {
+    margin: 20px 0px 20px 0px;
+    opacity: 0.1;
+    color: black;
+}
+
+.card__goods-prise {
+    display: flex;
+    align-items: center;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 27px;
+    color: #404040;
+}
+.card__goods-prise span {
+    margin-right: 10px;
+}
+
+.hr-line {
+    width: 25px;
+    transform: rotate(90deg);
+}
+
+.filters .cards__hub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    width: 859px;
+    height: 60px;
+    background: #2ba4a4;
+}
+.filters .more__goods a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.hr-line-filters {
+    margin: 20px 0px;
+}
+
+.filter__variable-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+._product {
+    display: inline-block;
+    margin: 0;
+}
+.hide {
+    display: none;
+}
+
+.btn_filter {
+    display: inline-block;
+    font-family: "Golos Text", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #39741b;
+    padding: 10px 13px;
+    border-radius: 10px;
+}
+
+.btn_filter:hover {
+    background-color: #3c6429;
+}
