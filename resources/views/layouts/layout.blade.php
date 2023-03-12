@@ -41,7 +41,7 @@
                             <div class="form-inner">
                                 <div class="form">
                                     <input type="email" class="form__email" placeholder="Enter your email address" />
-                                    <input type="email" class="form__email" placeholder="Enter your name" />
+                                    <input type="name" class="form__email" placeholder="Enter your name" />
                                     <button class="form__button">Send</button>
                                 </div>
                                 <div class="notice">
